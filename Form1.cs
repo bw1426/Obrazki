@@ -8,6 +8,7 @@ namespace Obrazki
         {
             InitializeComponent();
             this.AutoSize= true;
+            Text = "Krajobrazy";
             obraz=new PictureBox();
             obraz.SizeMode = PictureBoxSizeMode.StretchImage;
             //obraz.SizeMode = PictureBoxSizeMode.AutoSize;
